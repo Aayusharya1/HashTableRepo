@@ -27,8 +27,9 @@ namespace HashtableDemo
             hash.Add("16", "paranoid");
             hash.Add("17", "avoidable");
             hash.Add("18", "situations");
-            hash.GetFrequency("paranoid");
-            hash.DisplayFrequency();
+            hash.GetFrequency("avoidable");
+            hash.RemoveValue("avoidable");
+            hash.GetFrequency("avoidable");
             Console.ReadKey();
         }
     }
